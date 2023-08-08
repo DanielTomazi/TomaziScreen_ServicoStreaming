@@ -1,6 +1,8 @@
 package br.com.TomaziTecnologies.TSScreen.Modelos;
 
-public class Film extends Titulo{
+import br.com.TomaziTecnologies.TSScreen.Calculos.Classificavel;
+
+public class Film extends Titulo implements Classificavel {
     private String diretor;
 
     public String getDiretor() {
@@ -9,6 +11,11 @@ public class Film extends Titulo{
 
     public void setDiretor(String diretor) {
         this.diretor = diretor;
+    }
+
+    @Override
+    public int getClassificacao() {
+        return (int) obterMedia() / 2;
     }
 }
 
