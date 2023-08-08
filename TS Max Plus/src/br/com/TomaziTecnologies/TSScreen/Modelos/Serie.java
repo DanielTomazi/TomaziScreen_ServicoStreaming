@@ -2,7 +2,7 @@ package br.com.TomaziTecnologies.TSScreen.Modelos;
 
 public class Serie extends Titulo {
     private int temporadas;
-    private boolean ativo;
+    private boolean ativa;
     private int minutosPorEpisodio;
     private int episodiosPorTemporada;
 
@@ -14,12 +14,12 @@ public class Serie extends Titulo {
         this.temporadas = temporadas;
     }
 
-    public boolean isAtivo() {
-        return ativo;
+    public boolean isAtiva() {
+        return ativa;
     }
 
-    public void setAtivo(boolean ativo) {
-        this.ativo = ativo;
+    public void setAtiva(boolean ativa) {
+        this.ativa = ativa;
     }
 
     public int getMinutosPorEpisodio() {
@@ -36,5 +36,10 @@ public class Serie extends Titulo {
 
     public void setEpisodiosPorTemporada(int episodiosPorTemporada) {
         this.episodiosPorTemporada = episodiosPorTemporada;
+    }
+
+    @Override
+    public int getDuracaoEmMinutos() {
+        return temporadas * episodiosPorTemporada * minutosPorEpisodio;
     }
 }
