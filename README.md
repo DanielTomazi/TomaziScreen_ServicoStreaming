@@ -9,4 +9,4 @@ Foram utilizadas técnicas de encapsulamento no código, poliformismo e inserido
 ********************************************************************************************************************************************************************************
 Version 1.7
 Foi excluido o diretório TS Plus Max do repositório devido a atualizações e correçõpes realizadas no código diretamente pelo IntelliJ.
-Foi inserido um novo diretório com nome de Tomazi Screen, que napresentada todas funcionalidades e recursos já oferecidos pelo código anteriormente.
+Foi inserido um novo diretório com nome de Tomazi Screen, que apresentada todas funcionalidades e recursos já oferecidos pelo código anteriormente.
