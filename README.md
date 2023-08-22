@@ -9,5 +9,6 @@ Version 1.7 - Foi excluido o diretório TS Plus Max do repositório devido a atu
 Foi inserido um novo diretório com nome de Tomazi Screen, que apresentada todas funcionalidades e recursos já oferecidos pelo código anteriormente.
 *****
 Version 2.0 - foram inseridos novos códigos utilizando das funções de ArrayList e List, juntamente com menções a LinkedList, trabalhando os dados dentro do código de forma agrupada, ordenando e os reordenando por determinada classificação.
+(Determinados arquivos encontram-se na versão 1.7 ainda pois não tiveram que ser, ou ainda não foram atualizados)
 ***********
 # Autor: Daniel Tomazi de Oliveira
