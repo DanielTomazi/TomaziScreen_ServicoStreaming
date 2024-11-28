@@ -1,17 +1,15 @@
-# Tomazi Screen - Serviço de Streaming da Tomazi Tecnologies
-Serviço de Streaming criado com Java.
-
-Version 1.0 - Projeção inicial de uma plataforma de streaming utilizando a linguagem Java com métodos de encapsulamento, setters e getters e outros métodos e funcionalidades (Projeto contará com novos updates) 
-********************************************************************************************************************************************************************************
-Version 1.1 - Foram utilizadas técnicas de encapsulamento no código, polimorfismo e inserido o contexto de interface, muito utilizado na linguagem Java, assim expandindo o número de classes como é possível visualizar no pacote Soure. (Código terá ainda mais expansões)
-********************************************************************************************************************************************************************************
-Version 1.2 - Foi excluído o diretório TS Plus Max do repositório devido a atualizações e correções realizadas no código diretamente pelo IntelliJ.
-Foi inserido um novo diretório com nome de Tomazi Screen, que apresentada todas as funcionalidades e recursos já oferecidos pelo código anteriormente.
-*****
-Version 1.3 - foram inseridos novos códigos utilizando das funções de ArrayList e List, juntamente com menções a LinkedList, trabalhando os dados no código agrupadamente, ordenando e os reordenando por determinada classificação.
-(Determinados arquivos encontram-se na versão 1.7 ainda, pois não tiveram que ser, ou ainda não foram atualizados)
-***********
-Version 1.4 - Foram inseridas novas funcionalidades utilizando APIs, através da biblioteca gson do Google, funcionalidade que é utilizada para buscar qualquer filme e exibe suas informações, optimizando assim o back-end do software, também foi implantado um trecho de código que identifica determinados erros os quais a ferramenta pode vir a apresentar e os informa.
-************
-Version 1.5 - Foram inseridas novas funcionalidades através das funções try/catch para antecipar possíveis erros inevitáveis ao realizar a configuração back-end do código, também foi inserido uma função que armazena títulos pesquisados e um documento isolado, seja no formato de texto ou json.
+# Tomazi Screen - Serviço de Streaming
+Streaming Service Created with Java
+***
+Version 1.0 – Initial projection of a streaming platform using the Java programming language with encapsulation methods, setters and getters, and other methods and features. (The project will have future updates).
+***
+Version 1.1 – Encapsulation techniques, polymorphism, and the interface context, commonly used in Java, were applied to the code. This expanded the number of classes, as visible in the "Source" package. (The code will continue to expand).
+***
+Version 1.2 – The "TS Plus Max" directory was removed from the repository due to updates and fixes applied directly in the code through IntelliJ. A new directory called "Tomazi Screen" was added, presenting all the functionalities and features previously offered by the code.
+***
+Version 1.3 – New code was added using ArrayList and List functions, along with references to LinkedList, working with grouped data in the code, sorting and re-sorting them based on specific criteria. (Some files are still in version 1.7 as they have not needed to be or have not yet been updated).
+***
+Version 1.4 – New features were added using APIs, through Google's Gson library. This feature allows fetching any movie and displaying its information, thus optimizing the software's back-end. A code snippet was also implemented to identify and report specific errors that the tool might encounter.
+***
+Version 1.5 – New functionalities were added using try/catch functions to anticipate unavoidable errors when configuring the back-end of the code. A new function was also added to store searched titles in a separate document, either in text or JSON format.
 ******************
