@@ -2,7 +2,7 @@
 
 Um serviço de streaming completo e robusto desenvolvido em Java com Spring Boot, seguindo os princípios SOLID e GRASP, implementando clean code.
 
-## 🚀 Características
+## Características
 
 ### Arquitetura
 - **Clean Architecture** com separação clara de responsabilidades
@@ -65,7 +65,7 @@ Um serviço de streaming completo e robusto desenvolvido em Java com Spring Boot
 - **OpenAPI/Swagger** - Documentação da API
 - **Spring Actuator** - Métricas e health checks
 
-## 🏗️ Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 src/main/java/com/tomazi/streaming/
@@ -84,7 +84,7 @@ src/main/java/com/tomazi/streaming/
     └── mappers/        # Mapeadores
 ```
 
-## 🚀 Como Executar
+## Como Executar
 
 ### Pré-requisitos
 - Java 17+
@@ -143,7 +143,7 @@ A aplicação estará disponível em: `http://localhost:8080`
 ### Documentação da API
 Acesse: `http://localhost:8080/swagger-ui.html`
 
-## 🔐 Autenticação
+## Autenticação
 
 ### Usuários Padrão
 - **Admin**: `admin` / `admin123`
@@ -157,7 +157,7 @@ curl -X POST http://localhost:8080/api/auth/login \
   -d '{"username":"admin","password":"admin123"}'
 ```
 
-## 📊 Endpoints Principais
+## Endpoints Principais
 
 ### Autenticação
 - `POST /api/auth/login` - Login
@@ -201,7 +201,7 @@ REDIS_PORT=6379
 KAFKA_BOOTSTRAP_SERVERS=localhost:9092
 ```
 
-## 🛡️ Segurança
+## Segurança
 
 - Autenticação JWT com refresh tokens
 - Autorização baseada em roles
@@ -209,7 +209,7 @@ KAFKA_BOOTSTRAP_SERVERS=localhost:9092
 - Proteção CORS configurável
 - Rate limiting implementado
 
-## 📈 Monitoramento
+## Monitoramento
 
 ### Health Checks
 - `GET /actuator/health` - Status da aplicação
