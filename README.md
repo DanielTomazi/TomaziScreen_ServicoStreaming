@@ -217,11 +217,3 @@ KAFKA_BOOTSTRAP_SERVERS=localhost:9092
 
 ### Logs
 Logs estruturados com níveis configuráveis para debugging e monitoramento.
-
-## 🤝 Contribuição
-
-Este projeto segue os princípios de clean code e arquitetura limpa. Contribuições são bem-vindas seguindo os padrões estabelecidos.
-
-## 📄 Licença
-
-Este projeto está licenciado sob a MIT License.
