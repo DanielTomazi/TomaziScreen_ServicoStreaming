@@ -216,4 +216,4 @@ KAFKA_BOOTSTRAP_SERVERS=localhost:9092
 - `GET /actuator/metrics` - Métricas da aplicação
 
 ### Logs
-Logs estruturados com níveis configuráveis para debugging e monitoramento.
+Logs estruturados com níveis configuráveis para monitoramento e debugging.
